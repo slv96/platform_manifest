@@ -397,7 +397,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
-  <project path="device/samsung/u8500-common" name="slv96/platform_device_samsung_u8500-common" remote="github" revision="kitkat" />
+  <project path="device/samsung/u8500-common" name="J-Team/platform_device_samsung_u8500-common" remote="github" revision="kitkat" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/codina" name="slv96/platform_device_samsung_codina" remote="github" revision="kitkat" />
   <project path="kernel/samsung/u8500" name="slv96/platform_kernel_samsung_u8500" remote="github" revision="3.0.101" />
