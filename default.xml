@@ -22,7 +22,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" remote="github" revision="cm-11.0" />
-  <project path="bionic" name="AOSP-S4-KK/platform_bionic" remote="github" revision="kk-4.4" />
+  <project path="bionic" name="J-Team/platform_bionic" remote="github" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
@@ -243,7 +243,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="frameworks/base" name="J-Team/platform_frameworks_base" remote="github" revision="kitkat2" /> 
+  <project path="frameworks/base" name="J-Team/platform_frameworks_base" remote="github" revision="kitkat" /> 
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -282,7 +282,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="AOSP-S4-KK/platform_libcore" remote="github" revision="kk-4.4" />
+  <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -397,7 +397,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <project path="device/samsung/u8500-common" name="J-Team/platform_device_samsung_u8500-common" remote="github" revision="kitkat" />
-  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/u8500-common" name="slv96/platform_vendor_samsung_u8500-common" remote="github" revision="kitkat" />
   <project path="device/samsung/codina" name="slv96/platform_device_samsung_codina" remote="github" revision="kitkat" />
   <project path="kernel/samsung/u8500" name="slv96/platform_kernel_samsung_u8500" remote="github" revision="3.0.101" />
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
